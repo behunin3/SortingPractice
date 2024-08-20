@@ -20,7 +20,7 @@ class BubbleSort():
         self.end_time = datetime.datetime.now()
 
         # print("Bubble time: ", self.end_time-self.start_time)
-        self.time_elapsed = self.end_time - self.start_time
+        self.elapsed_time = self.end_time - self.start_time
         # print(self.values)
 
 values = Rand(1, 10000, 5000)

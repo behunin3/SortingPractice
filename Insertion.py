@@ -1,7 +1,7 @@
 from Values import Rand
 import datetime
 
-class Insertion():
+class InsertionSort():
     def __init__(self, values):
         self.values = values
         self.unsorted_values = values
@@ -23,5 +23,5 @@ class Insertion():
 
 values = Rand(1,100, 10)
 # print(values)
-insert = Insertion(values)
+insert = InsertionSort(values)
 insert.sort()
